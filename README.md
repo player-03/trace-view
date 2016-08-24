@@ -3,7 +3,9 @@ Displays trace statements inside an OpenFL app, to save you the trouble of viewi
 
 ## Usage
 
-The simplest option is `TraceView.enable()`, which makes traces show up on top of the rest of the game. If you want more control over where they show up, you can choose where to put the view:
+The simplest option is `TraceView.enable()`, which sets everything up with default settings. It also makes traces show up on top of everything else in your app.
+
+If you want more control, you can create and modify the TraceView object yourself. It's a text field, with all of the options that implies:
 
 ```haxe
 var view:TraceView = new TraceView(CONSOLE_COLOR, CONSOLE_FONT);
