@@ -1,6 +1,6 @@
 {
-	"name":"trace-overlay",
-	"url":"https://github.com/player-03/trace-overlay",
+	"name":"trace-view",
+	"url":"https://github.com/player-03/trace-view",
 	"license":"MIT",
 	"tags":[],
 	"description":"Displays trace statements inside an OpenFL app, to save you the trouble of viewing the log.",
